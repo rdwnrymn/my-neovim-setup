@@ -39,3 +39,6 @@ require("lazy").setup({
 
 -- Load after plugins setup
 require("config.keymaps")
+
+-- Enable showkey(s)
+vim.cmd("ShowkeysToggle");
