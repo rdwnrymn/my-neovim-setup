@@ -1,4 +1,4 @@
--- vim.opt.expandtab = true -- convert tabs to spaces
+vim.opt.expandtab = true -- convert tabs to spaces
 vim.opt.shiftwidth = 4 -- amount to indent with << and >>
 vim.opt.tabstop = 4 -- how many spaces are shown per Tab when pressing Tab
 vim.opt.softtabstop = 4 -- how many spaces are applied when pressing Tab
@@ -12,7 +12,6 @@ vim.opt.cursorline = true -- show line under cursor
 vim.opt.undofile = true -- store undos between sessions
 vim.opt.mouse = "a" -- enable mouse mode
 vim.opt.showmode = false -- disable native status mode, since its already in the mini status line plugin
-
 -- Sets how neovim will display certain whitespace characters in the editor.
 --  See `:help 'list'`
 --  and `:help 'listchars'`
