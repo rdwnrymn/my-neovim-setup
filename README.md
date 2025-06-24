@@ -1,3 +1,3 @@
 # my-neovim-setup
-Neovim Setup  
-Source : https://github.com/jakobwesthoff/nvim-from-scratch
+My personal nvim setup  
+Based on **[Neovim from Scratch](https://github.com/jakobwesthoff/nvim-from-scratch)** tutorial
