@@ -9,7 +9,32 @@ return {
 		{ 
 			"<leader>ff", 
 			function() require('fzf-lua').files() end,
-			desc="Find files in current working directory"
+			desc="Find files in current project path"
+		},
+		{ 
+			"<leader><leader>", 
+			function() require('fzf-lua').buffers() end,
+			desc="Open a buffers in current project"
+		},
+		{ 
+			"<leader>fg", 
+			function() require('fzf-lua').live_grep() end,
+			desc="Live grep in current project"
+		},
+		{ 
+			"<leader>f~", 
+			function() require('fzf-lua').files( { cwd = '~/' } ) end,
+			desc="Find file in Home directory"
+		},
+		{ 
+			"<leader>fb", 
+			function() require('fzf-lua').builtin() end,
+			desc="Find all builtin functions in FZF "
+		},
+		{ 
+			"<leader>fk", 
+			function() require('fzf-lua').keymaps() end,
+			desc="Find all keymaps"
 		}
 	}
 }
