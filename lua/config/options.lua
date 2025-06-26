@@ -18,3 +18,18 @@ vim.opt.showmode = false -- disable native status mode, since its already in the
 vim.opt.list = true
 vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.opt.scrolloff = 4 -- Minimal number of screen lines to keep above and below the cursor.
+-- Sync clipboard between OS and Neovim.
+vim.opt.clipboard = 'unnamedplus'
+-- Case-insensitive searching UNLESS \C or capital letters are used in the search
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+-- Decrease update time
+vim.opt.updatetime = 250
+vim.opt.timeoutlen = 300
+-- Set the sign column to always be there
+-- This prevents the text from shifting when a sign is shown/hidden
+vim.opt.signcolumn = 'yes'
+-- Open new splits to the right and bottom
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
